@@ -1,0 +1,63 @@
+global-blocks:
+  iron_ore:
+    replace: stone
+    payout: 10
+  wheat:
+    replace: air
+    payout: 5
+
+currency: "$"
+
+action-bar: "<gold>Вы заработали <green><pay><currency><gold>!"
+
+not-ready: "<red>Растение еще недостаточно выросло!"
+cancelled: "<red>Вы не можете ломать этот блок здесь!"
+lumbermills:
+  - spawn_lumbermill:world
+
+region-permissions:
+  spawn_mine_1: mine1
+
+replace-block-timer: 5
+
+cooldown-actionbar: 20
+
+keep-info-actionbar: 120
+
+replace-amount: 3
+
+drop-xp: 1
+
+money-format: "##0.0"
+
+min-announce: 0.5
+
+blocks-to-replace:
+  test1:
+    - stone
+    - cobblestone
+  test2:
+    - none
+
+blocks-to-cache:
+  test1:
+    - iron_ore
+    - gold_ore
+    - stone
+    - cobblestone
+  test2:
+    - none
+
+blocks-replace-with:
+  test1:
+    - iron_ore:10
+    - gold_ore:1
+    - diamond_ore:1
+    - coal_ore:10
+    - copper_ore:5
+  test2:
+    - none
+
+regions:
+  - test1:world
+  - test2:world

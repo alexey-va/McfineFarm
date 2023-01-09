@@ -1,0 +1,6 @@
+name: McfineFarm
+version: '${project.version}'
+main: ru.mcfine.mcfinefarm.McfineFarm
+api-version: 1.19
+load: POSTWORLD
+depend: [ WorldGuard, Vault ]
